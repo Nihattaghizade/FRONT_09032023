@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;    
+}
+
+/* header css start */
+
+header nav{
+    position: relative;
+    left: 70px;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header nav img{
+    margin-left: 100px;
+    width: 150px;
+    height: 100px;
+}
+
+.box{
+    position: relative;
+    left: 400px;
+    padding: 0 20px;    
+}
+
+.line{
+    max-width: 2000px; 
+    height: 2px; 
+    background-color: gray; 
+    box-shadow: 0 2px 5px black;
+}
+
+/* header css end */
+
+/* section css start */
+
+section h5{
+    text-align: center;
+    padding-top: 30px;
+    color: orange;
+}
+
+section h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+.tours-body{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.tours-body article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.article-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features{
+    color: gray;
+}
+
+.cost{
+    color: red;
+}
+
+.box1{
+    padding: 0 60px;
+}
+
+.miniline{
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* section css end */
+
